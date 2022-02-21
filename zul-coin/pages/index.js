@@ -57,7 +57,10 @@ export default function Home() {
               </section>
             </div>
             <div className="w-full md:w-1/2 h-full flex flex-col justify-center items-center relative">
-
+              <div className="w-3/4 flex justify-center items-center mb-4">
+                <img src="/images/zulcoinPic.png" className="h-full w-full" alt="zulcoin" />
+              </div>
+              <h4 className="text-6xl font-bold text-customWhite font-[Starduster] text-center drop-shadow-lg">あなたの未来<br />に投資する</h4>
             </div>
             <div className="w-full h-12 bg-customYellow absolute z-100 bottom-20 overflow-hidden flex items-center">
 
@@ -81,7 +84,7 @@ export default function Home() {
             <div className="w-full md:w-1/2 p-4">
               <div className="w-full">
                 <h4 className="font-[Starduster] text-xl"><FaLanguage className="inline text-4xl mr-2 text-customRed" />lAnguAge Selection</h4>
-                <div className="flex mb-2">
+                <div className="flex mb-4">
                   <button className="p-2 px-4 mr-2 bg-customLightBlue text-customBlack font-bold rounded transition duration-300 hover:bg-customDark hover:text-customWhite" onClick={() => setIntroLang(1)}>En</button>
                   <button className="p-2 px-4 mr-2 bg-customLightBlue text-customBlack font-bold rounded transition duration-300 hover:bg-customDark hover:text-customWhite" onClick={() => setIntroLang(2)}>Ja</button>
                   <button className="p-2 px-4 mr-2 bg-customLightBlue text-customBlack font-bold rounded transition duration-300 hover:bg-customDark hover:text-customWhite" onClick={() => setIntroLang(3)}>Hi</button>
@@ -91,31 +94,31 @@ export default function Home() {
               </div>
               { introLang == 1 &&
                 <div className="w-full">
-                  <h2 className="text-2xl font-[Starduster]">About ZulCoin</h2>
+                  <h2 className="text-4xl font-[Starduster] text-customBlack">About ZulCoin</h2>
                 </div>
               }
 
               { introLang == 2 &&
                 <div className="w-full">
-                  <h2 className="text-2xl font-[Starduster] font-bold">ズルコインについて</h2>
+                  <h2 className="text-4xl font-[Starduster] text-customBlack font-bold">ズルコインについて</h2>
                 </div>
               }
 
               { introLang == 3 &&
                 <div className="w-full">
-                  <h2 className="text-2xl font-[Starduster] font-bold">ज़ज़ुल्कोइन के बारे मेें</h2>
+                  <h2 className="text-4xl font-[Starduster] text-customBlack font-bold">ज़ज़ुल्कोइन के बारे मेें</h2>
                 </div>
               }
 
               { introLang == 4 &&
                 <div className="w-full">
-                  <h2 className="text-2xl font-[Starduster]">A zulcoinról</h2>
+                  <h2 className="text-4xl font-[Starduster] text-customBlack">A zulcoinról</h2>
                 </div>
               }
 
               { introLang == 5 &&
                 <div className="w-full">
-                  <h2 className="text-2xl font-[Starduster]">zulcoin hAkkindA</h2>
+                  <h2 className="text-4xl font-[Starduster] text-customBlack">zulcoin hAkkindA</h2>
                 </div>
               }
             </div>
