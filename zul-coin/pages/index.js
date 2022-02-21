@@ -4,6 +4,10 @@ import Image from 'next/image'
 import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 
+import Marquee from "react-fast-marquee";
+
+import Footer from '../components/Footer.js';
+
 import { FaLanguage } from "react-icons/fa";
 
 export default function Home() {
@@ -13,7 +17,7 @@ export default function Home() {
   return (
     <div className=" w-full bg-customLightBlue">
       <Head>
-        <title>Zul Coin | Crypto</title>
+        <title>ZulCoin | Polygon Blockchain Token</title>
         <meta name="description" content="Zul coin selling website, Web3 token" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -60,17 +64,26 @@ export default function Home() {
               <div className="w-3/4 flex justify-center items-center mb-4">
                 <img src="/images/zulcoinPic.png" className="h-full w-full" alt="zulcoin" />
               </div>
-              <h4 className="text-6xl font-bold text-customWhite font-[Starduster] text-center drop-shadow-lg">あなたの未来<br />に投資する</h4>
+              <h4 className="text-6xl font-bold text-customWhite font-[Starduster] text-center drop-shadow-lg">ズルコイン</h4>
             </div>
-            <div className="w-full h-12 bg-customYellow absolute z-100 bottom-20 overflow-hidden flex items-center">
-
+            <div className="w-full h-12 bg-customLightBlue absolute z-100 bottom-20 overflow-hidden flex items-center">
+              <Marquee pauseOnHover speed={80} gradient={false}>
+                <h4 className="text-4xl font-[Starduster] text-customDark mx-8">invest in your future</h4>
+                <h4 className="text-4xl font-[Starduster] text-customDark mx-8 font-bold">あなたの未来に投資する</h4>
+                <h4 className="text-4xl font-[Starduster] text-customDark mx-8">fektessen be A jövöjébe</h4>
+                <h4 className="text-4xl font-[Starduster] text-customDark mx-8 font-bold">अपने भविष्य में निवेश करें</h4>
+                <h4 className="text-4xl font-[Starduster] text-customDark mx-8">geleceGine yAtirim yAp</h4>
+                <h4 className="text-4xl font-[Starduster] text-customDark mx-8 font-bold">당신의 미래에 투자</h4>
+                <h4 className="text-4xl font-[Starduster] text-customDark mx-8">investieren Sie in ihre Zukunft</h4>
+                <h4 className="text-4xl font-[Starduster] text-customDark mx-8 font-bold">投资于你的未来</h4>
+              </Marquee>
             </div>
           </div>
         </div>
 
         <div className="w-full h-screen">
           <Image
-            src="/images/background.png"
+            src="/images/background2.png"
             layout="fill"
             objectFit="cover"
           />
@@ -130,8 +143,9 @@ export default function Home() {
       </div>
 
 
-
-
+      <div className="w-full bg-customDark">
+        <Footer />
+      </div>
     </div>
   )
 }
