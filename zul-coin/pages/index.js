@@ -9,6 +9,7 @@ import Marquee from "react-fast-marquee";
 import Footer from '../components/Footer.js';
 
 import { FaLanguage } from "react-icons/fa";
+import { FaCheck } from "react-icons/fa";
 
 export default function Home() {
 
@@ -108,6 +109,7 @@ export default function Home() {
               { introLang == 1 &&
                 <div className="w-full">
                   <h2 className="text-4xl font-[Starduster] text-customBlack">About ZulCoin</h2>
+                  <p>ZulCoin is an ERC20 token deployed to the Polygon network.</p>
                 </div>
               }
 
@@ -132,6 +134,201 @@ export default function Home() {
               { introLang == 5 &&
                 <div className="w-full">
                   <h2 className="text-4xl font-[Starduster] text-customBlack">zulcoin hAkkindA</h2>
+                </div>
+              }
+            </div>
+            <div className="w-full md:w-1/2 p-4">
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Vision and Mission */}
+      <div className="w-full py-8">
+        <div className="w-full py-8">
+          <div className="w-full max-w-7xl mx-auto flex justify-center items-center flex-col md:flex-row mb-4 bg-white rounded-xl border-4 border-customLightBlue drop-shadow-xl">
+            <div className="w-full md:w-1/2 p-4">
+              <div className="w-full">
+                <h4 className="font-[Starduster] text-xl"><FaLanguage className="inline text-4xl mr-2 text-customRed" />lAnguAge Selection</h4>
+                <div className="flex mb-4">
+                  <button className="p-2 px-4 mr-2 bg-customLightBlue text-customBlack font-bold rounded transition duration-300 hover:bg-customDark hover:text-customWhite" onClick={() => setIntroLang(1)}>En</button>
+                  <button className="p-2 px-4 mr-2 bg-customLightBlue text-customBlack font-bold rounded transition duration-300 hover:bg-customDark hover:text-customWhite" onClick={() => setIntroLang(2)}>Ja</button>
+                  <button className="p-2 px-4 mr-2 bg-customLightBlue text-customBlack font-bold rounded transition duration-300 hover:bg-customDark hover:text-customWhite" onClick={() => setIntroLang(3)}>Hi</button>
+                  <button className="p-2 px-4 mr-2 bg-customLightBlue text-customBlack font-bold rounded transition duration-300 hover:bg-customDark hover:text-customWhite" onClick={() => setIntroLang(4)}>Hu</button>
+                  <button className="p-2 px-4 mr-2 bg-customLightBlue text-customBlack font-bold rounded transition duration-300 hover:bg-customDark hover:text-customWhite" onClick={() => setIntroLang(5)}>Tr</button>
+                </div>
+              </div>
+              { introLang == 1 &&
+                <div className="w-full">
+                  <h2 className="text-4xl font-[Starduster] text-customBlack">our vision And mission</h2>
+                  <p>ZulCoin is an ERC20 token deployed to the Polygon network.</p>
+                </div>
+              }
+
+              { introLang == 2 &&
+                <div className="w-full">
+                  <h2 className="text-4xl font-[Starduster] text-customBlack font-bold">私たちのビジョンと使命</h2>
+                </div>
+              }
+
+              { introLang == 3 &&
+                <div className="w-full">
+                  <h2 className="text-4xl font-[Starduster] text-customBlack font-bold">हमारी दृष्टि और मिशन</h2>
+                </div>
+              }
+
+              { introLang == 4 &&
+                <div className="w-full">
+                  <h2 className="text-4xl font-[Starduster] text-customBlack">jövöképünk és küldetésünk</h2>
+                </div>
+              }
+
+              { introLang == 5 &&
+                <div className="w-full">
+                  <h2 className="text-4xl font-[Starduster] text-customBlack">zvizyonumuz ve misyonumuz</h2>
+                </div>
+              }
+            </div>
+            <div className="w-full md:w-1/2 p-4">
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Roadmap */}
+      <div className="w-full py-8">
+        <div className="w-full py-8">
+          <div className="w-full max-w-7xl mx-auto flex justify-center items-center flex-col md:flex-row mb-4 bg-white rounded-xl border-4 border-customLightBlue drop-shadow-xl">
+            <div className="w-full md:w-1/2 p-4">
+              <div className="w-full">
+                <h4 className="font-[Starduster] text-xl"><FaLanguage className="inline text-4xl mr-2 text-customRed" />lAnguAge Selection</h4>
+                <div className="flex mb-4">
+                  <button className="p-2 px-4 mr-2 bg-customLightBlue text-customBlack font-bold rounded transition duration-300 hover:bg-customDark hover:text-customWhite" onClick={() => setIntroLang(1)}>En</button>
+                  <button className="p-2 px-4 mr-2 bg-customLightBlue text-customBlack font-bold rounded transition duration-300 hover:bg-customDark hover:text-customWhite" onClick={() => setIntroLang(2)}>Ja</button>
+                  <button className="p-2 px-4 mr-2 bg-customLightBlue text-customBlack font-bold rounded transition duration-300 hover:bg-customDark hover:text-customWhite" onClick={() => setIntroLang(3)}>Hi</button>
+                  <button className="p-2 px-4 mr-2 bg-customLightBlue text-customBlack font-bold rounded transition duration-300 hover:bg-customDark hover:text-customWhite" onClick={() => setIntroLang(4)}>Hu</button>
+                  <button className="p-2 px-4 mr-2 bg-customLightBlue text-customBlack font-bold rounded transition duration-300 hover:bg-customDark hover:text-customWhite" onClick={() => setIntroLang(5)}>Tr</button>
+                </div>
+              </div>
+              { introLang == 1 &&
+                <div className="w-full">
+                  <h2 className="text-4xl font-[Starduster] text-customBlack">Our RoAdmAp</h2>
+                  <div className="w-full flex">
+                    <div className="w-1/2">
+                      <p>Website launched <FaCheck className="inline -mt-2" /></p>
+                      <p>White paper released <FaCheck className="inline -mt-2" /></p>
+                      <p>Token launched <FaCheck className="inline -mt-2" /></p>
+                      <p>Building Discord community</p>
+                      <p>Building Reddit community</p>
+                      <p>Building Twitter community</p>
+                      <p>Building Telegram community</p>
+                    </div>
+                    <div className="w-1/2">
+                      <p>Social media marketing</p>
+                      <p>Influencer marketing</p>
+                      <p>Content marketing</p>
+                      <p>Advertising</p>
+                      <p>DEX listing - UniSwap, PancakeSwap</p>
+                    </div>
+                  </div>
+                </div>
+              }
+
+              { introLang == 2 &&
+                <div className="w-full">
+                  <h2 className="text-4xl font-[Starduster] text-customBlack font-bold">目標と目的</h2>
+                  <div className="w-full flex">
+                    <div className="w-1/2">
+                      <p>ウェブサイトの展開 <FaCheck className="inline -mt-2" /></p>
+                      <p>ホワイトペーパーがリリースされました <FaCheck className="inline -mt-2" /></p>
+                      <p>暗号通貨が開始されました <FaCheck className="inline -mt-2" /></p>
+                      <p>Discordコミュニティの構築</p>
+                      <p>Redditコミュニティの構築</p>
+                      <p>Twitterコミュニティの構築</p>
+                      <p>Telegramコミュニティの構築</p>
+                    </div>
+                    <div className="w-1/2">
+                      <p>ソーシャルメディアマーケティング</p>
+                      <p>インフルエンサーマーケティング</p>
+                      <p>コンテンツマーケティング</p>
+                      <p>広告キャンペーン</p>
+                      <p>DEXリスト-UniSwap、PancakeSwap</p>
+                    </div>
+                  </div>
+                </div>
+              }
+
+              { introLang == 3 &&
+                <div className="w-full">
+                  <h2 className="text-4xl font-[Starduster] text-customBlack font-bold">लक्ष्य और उद्देश्येें</h2>
+                  <div className="w-full flex">
+                    <div className="w-1/2">
+                      <p>वेबसाइट लॉन्च की गई <FaCheck className="inline -mt-2" /></p>
+                      <p>श्वेत पत्र जारी <FaCheck className="inline -mt-2" /></p>
+                      <p>क्रिप्टोक्यूरेंसी लॉन्च किया गया <FaCheck className="inline -mt-2" /></p>
+                      <p>बिल्डिंग डिसॉर्डर कम्युनिटी</p>
+                      <p>रेडिट समुदाय का निर्माण</p>
+                      <p>ट्विटर समुदाय का निर्माण</p>
+                      <p>टेलीग्राम समुदाय का निर्माण</p>
+                    </div>
+                    <div className="w-1/2">
+                      <p>सामाजिक माध्यम बाजारीकरण</p>
+                      <p>इन्फ्लुएंसर मार्केटिंग</p>
+                      <p>विषयवस्तु का व्यापार</p>
+                      <p>प्रचार अभियान</p>
+                      <p>DEX लिस्टिंग - UniSwap, PancakeSwap</p>
+                    </div>
+                  </div>
+                </div>
+              }
+
+              { introLang == 4 &&
+                <div className="w-full">
+                  <h2 className="text-4xl font-[Starduster] text-customBlack">célok és célkitUzések</h2>
+                  <div className="w-full flex">
+                    <div className="w-1/2">
+                      <p>Elindult a weboldal <FaCheck className="inline -mt-2" /></p>
+                      <p>Kiadtak a fehér papírt <FaCheck className="inline -mt-2" /></p>
+                      <p>Token elindítva <FaCheck className="inline -mt-2" /></p>
+                      <p>Növekvő Discord közösség</p>
+                      <p>Növekvő Reddit közösség</p>
+                      <p>Növekvő Twitter közösség</p>
+                      <p>Növekvő Telegram közösség</p>
+                    </div>
+                    <div className="w-1/2">
+                      <p>Közösségi média marketing</p>
+                      <p>Befolyasoló marketing</p>
+                      <p>Tartalom marketing</p>
+                      <p>Reklamkampany</p>
+                      <p>DEX lista - UniSwap, PancakeSwap</p>
+                    </div>
+                  </div>
+                </div>
+              }
+
+              { introLang == 5 &&
+                <div className="w-full">
+                  <h2 className="text-4xl font-[Starduster] text-customBlack">AmAçlAr ve hedefler</h2>
+                  <div className="w-full flex">
+                    <div className="w-1/2">
+                      <p>Web sitesi açıldı <FaCheck className="inline -mt-2" /></p>
+                      <p>Beyaz kağıt yayınlandı <FaCheck className="inline -mt-2" /></p>
+                      <p>Jeton yayınlandı <FaCheck className="inline -mt-2" /></p>
+                      <p>Discord topluluğu oluşturma</p>
+                      <p>Reddit topluluğu oluşturma</p>
+                      <p>Twitter topluluğu oluşturma</p>
+                      <p>Telegram topluluğu oluşturma</p>
+                    </div>
+                    <div className="w-1/2">
+                      <p>Sosyal medya pazarlamacılığı</p>
+                      <p>Etkileyici pazarlama</p>
+                      <p>İçerik pazarlama</p>
+                      <p>Reklam kampanyası</p>
+                      <p>DEX listesi - UniSwap, PancakeSwap</p>
+                    </div>
+                  </div>
                 </div>
               }
             </div>

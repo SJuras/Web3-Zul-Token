@@ -21,10 +21,10 @@ export default function Home() {
           <h4 className="text-white mb-2 text-xl">Useful Links:</h4>
           <ul>
             <li className="transition duration-300 "><a href="https://ethereum.org/en/" className="text-white transition duration-300 hover:text-customRed">Ethereum</a></li>
-            <li className="transition duration-300 "><a href="https://metamask.io/" className="text-white transition duration-300 hover:text-customRed">MetaMask</a></li>
+            <li className="transition duration-300 "><a href="https://polygon.technology/" className="text-white transition duration-300 hover:text-customRed">Polygon</a></li>
+            <li className="transition duration-300 "><a href="https://polygon.technology/matic-token/" className="text-white transition duration-300 hover:text-customRed">MATIC</a></li>
             <li className="transition duration-300 "><a href="https://chain.link/" className="text-white transition duration-300 hover:text-customRed">ChainLink</a></li>
-            <li className="transition duration-300 "><a href="https://en.wikipedia.org/wiki/Web3" className="text-white transition duration-300 hover:text-customRed">What is Web3.0</a></li>
-            <li className="transition duration-300 "><a href="https://docs.soliditylang.org/en/v0.8.11/introduction-to-smart-contracts.html" className="text-white transition duration-300 hover:text-customRed">What is a Smart Contract</a></li>
+            <li className="transition duration-300 "><a href="https://www.coinbase.com/" className="text-white transition duration-300 hover:text-customRed">Coinbase</a></li>
           </ul>
         </div>
       </div>
