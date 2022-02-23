@@ -20,6 +20,8 @@ export default function Home() {
       <Head>
         <title>ZulCoin | Polygon Blockchain Token</title>
         <meta name="description" content="Zul coin selling website, Web3 token" />
+        <meta name="keywords" content="zulcoin, crypto, buy, buy crypto, buying crypto, token, polygon, matic, blockchain" />
+        <meta name="author" content="Sarif-Design" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -49,8 +51,8 @@ export default function Home() {
                 <h1 className="text-2xl font-[Starduster] text-customBlack mb-8">Polygon blockchAin token</h1>
               </section>
               <section className="flex w-1/2 md:w-full flex-col md:flex-row">
-                <div className="md:mr-4 p-2 bg-customRed font-[Starduster] text-2xl cursor-pointer drop-shadow-lg transition duration-300 hover:bg-customLightPurple">
-                  <Link href="/lotterypage" className="font-[Starduster] cursor-pointer text-customWhite">
+                <div className="md:mr-4 p-2 bg-customRed font-[Starduster] text-2xl cursor-pointer drop-shadow-lg transition duration-300 hover:bg-customLightRed">
+                  <Link href="/buyPage" className="font-[Starduster] cursor-pointer text-customWhite">
                     <p className="text-customWhite text-2xl text-center">Buy ZulCoin</p>
                   </Link>
                 </div>
@@ -110,6 +112,8 @@ export default function Home() {
                 <div className="w-full">
                   <h2 className="text-4xl font-[Starduster] text-customBlack">About ZulCoin</h2>
                   <p>ZulCoin is an ERC20 token deployed to the Polygon network.</p>
+                  <h4>Token Supply: 100 million</h4>
+                  <h4>Decimals: 9</h4>
                 </div>
               }
 
