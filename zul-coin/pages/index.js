@@ -45,13 +45,13 @@ export default function Home() {
           <div className="w-full max-w-7xl mx-auto flex flex-col md:flex-row h-screen justify-center items-center p-3">
             <div className="w-full md:w-1/2 flex flex-col justify-start items-center">
               <section className="w-full">
-                <h4 className="font-[Starduster] text-4xl md:text-8xl text-customWhite drop-shadow-lg">invest</h4>
-                <h4 className="font-[Starduster] text-4xl md:text-8xl text-customWhite drop-shadow-lg">in your</h4>
-                <h4 className="font-[Starduster] text-4xl md:text-8xl text-customRed drop-shadow-lg mb-4">future</h4>
-                <h1 className="text-2xl font-[Starduster] text-customBlack mb-8">Polygon blockchAin token</h1>
+                <h4 className="text-center md:text-left font-[Starduster] text-4xl md:text-8xl text-customWhite drop-shadow-lg">invest</h4>
+                <h4 className="text-center md:text-left font-[Starduster] text-4xl md:text-8xl text-customWhite drop-shadow-lg">in your</h4>
+                <h4 className="text-center md:text-left font-[Starduster] text-4xl md:text-8xl text-customRed drop-shadow-lg mb-4">future</h4>
+                <h1 className="text-center md:text-left text-2xl font-[Starduster] text-customBlack mb-8">Polygon blockchAin token</h1>
               </section>
               <section className="flex w-1/2 md:w-full flex-col md:flex-row">
-                <div className="md:mr-4 p-2 bg-customRed font-[Starduster] text-2xl cursor-pointer drop-shadow-lg transition duration-300 hover:bg-customLightRed">
+                <div className="mb-2 md:mb-0 md:mr-4 p-2 bg-customRed font-[Starduster] text-2xl cursor-pointer drop-shadow-lg transition duration-300 hover:bg-customLightRed">
                   <Link href="/buyPage" className="font-[Starduster] cursor-pointer text-customWhite">
                     <p className="text-customWhite text-2xl text-center">Buy ZulCoin</p>
                   </Link>
@@ -63,13 +63,13 @@ export default function Home() {
                 </div>
               </section>
             </div>
-            <div className="w-full md:w-1/2 h-full flex flex-col justify-center items-center relative">
-              <div className="w-3/4 flex justify-center items-center mb-4">
+            <div className="hidden md:flex w-full md:w-1/2 h-full flex-col justify-center items-center relative">
+              <div className="w-1/2 md:w-3/4 flex justify-center items-center mb-4">
                 <img src="/images/zulcoinPic.png" className="h-full w-full" alt="zulcoin" />
               </div>
-              <h4 className="text-6xl font-bold text-customWhite font-[Starduster] text-center drop-shadow-lg">ズルコイン</h4>
+              <h4 className="text-2xl md:text-6xl font-bold text-customWhite font-[Starduster] text-center drop-shadow-lg">ズルコイン</h4>
             </div>
-            <div className="w-full h-12 bg-customLightBlue absolute z-100 bottom-20 overflow-hidden flex items-center">
+            <div className="w-full h-12 bg-customLightBlue absolute z-100 bottom-10 md:bottom-20 overflow-hidden flex items-center">
               <Marquee pauseOnHover speed={80} gradient={false}>
                 <h4 className="text-4xl font-[Starduster] text-customDark mx-8">invest in your future</h4>
                 <h4 className="text-4xl font-[Starduster] text-customDark mx-8 font-bold">あなたの未来に投資する</h4>

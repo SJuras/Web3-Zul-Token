@@ -29,7 +29,7 @@ export default function Home() {
       <main className="">
       {/* navbar */}
         <nav className="w-full max-w-7xl mx-auto pt-4 mb-4 px-2 md:px-0">
-          <div className="flex justify-between items-center">
+          <div className="flex justify-between items-center px-2">
             <div className="cursor-pointer">
               <Link href="/">
                 <h1 className="font-[Audiowide] text-2xl md:text-4xl text-customWhite drop-shadow-lg drop-shadow-lg"><span className="font-[Atari] text-4xl md:text-8xl text-customWhite drop-shadow-lg">Z</span>ULCOIN</h1>
@@ -134,12 +134,23 @@ export default function Home() {
 
             </div>
 
-            <div className="flex flex-col md:flex-row items-end">
+            <div className="flex flex-col md:flex-row items-start">
               <div className="flex w-full md:w-2/3 flex-col h-full p-2">
-                <p>今すぐ通貨を購入する</p>
-                <p>अभी मुद्रा खरीदें</p>
-                <div className="w-full mb-4">
-                  <button className="p-2 bg-customRed font-[Starduster] text-xl text-customWhite cursor-pointer drop-shadow-lg transition duration-300 hover:bg-customLightRed">Buy ZulCoin</button>
+                <div className="w-full flex flex-col md:flex-row mb-4">
+                  <div className="w-full md:w-1/2 mb-8 md:mb-0">
+                    <p>今すぐ通貨を購入する</p>
+                    <p>अभी मुद्रा खरीदें</p>
+                    <div className="w-full">
+                      <button className="p-2 bg-customRed font-[Starduster] text-xl text-customWhite cursor-pointer drop-shadow-lg transition duration-300 hover:bg-customLightRed">Buy ZulCoin</button>
+                    </div>
+                  </div>
+                  <div className="w-full md:w-1/2 flex flex-col justify-center items-center">
+                    <div className="w-1/2">
+                      <img src="/images/zulcoinPic.png" className="h-full w-full" alt="zulcoin" />
+                    </div>
+                    <h4 className="text-xl font-[Starduster] text-white drop-shadow-lg">invest in your future</h4>
+                    <h4 className="text-xl font-[Starduster] text-white font-bold drop-shadow-lg">あなたの未来に投資する</h4>
+                  </div>
                 </div>
                 <div className="w-full p-4 bg-white rounded-xl border-4 border-customLightBlue drop-shadow-xl">
                   <h4 className="font-[Starduster] text-xl"><FaLanguage className="inline text-4xl mr-2 text-customRed" />lAnguAge Selection</h4>
@@ -283,6 +294,11 @@ export default function Home() {
                 </div>
               </div>
               <div className="flex w-full md:w-1/3 flex-col h-full p-2">
+                <div className="w-full p-4 rounded-lg bg-white border-4 border-customLightBlue drop-shadow-xl">
+                  <h4 className="text-2xl font-[Starduster] text-center">Current ETH Price</h4>
+                  <h4 className="text-2xl font-[Starduster] text-center font-bold mb-2">現在のETH価格</h4>
+                  <h5 className="text-xl font-bold text-center">8 USD</h5>
+                </div>
                 <div className="w-full p-4 rounded-lg bg-white border-4 border-customLightBlue drop-shadow-xl">
                   <h4 className="text-2xl font-[Starduster] text-center">TrAnsActions</h4>
                   <h4 className="text-2xl font-[Starduster] text-center mb-2 font-bold">会報</h4>
