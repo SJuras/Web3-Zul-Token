@@ -18,7 +18,7 @@ export default function Home() {
   return (
     <div className=" w-full bg-customLightBlue">
       <Head>
-        <title>ZulCoin | Polygon Blockchain Token</title>
+        <title>ZulCoin | Polygon Blockchain Token ポリゴンブロックチェーントークン</title>
         <meta name="description" content="Zul coin selling website, Web3 token" />
         <meta name="keywords" content="zulcoin, crypto, buy, buy crypto, buying crypto, token, polygon, matic, blockchain" />
         <meta name="author" content="Sarif-Design" />

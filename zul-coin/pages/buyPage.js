@@ -19,7 +19,7 @@ export default function Home() {
   return (
     <div className=" w-full bg-customLightBlue">
       <Head>
-        <title>ZulCoin | Polygon Blockchain Token</title>
+        <title>ZulCoin | Buy ZulCoin ズルコインを買う</title>
         <meta name="description" content="Zul coin selling website, Web3 token" />
         <meta name="keywords" content="zulcoin, crypto, buy, buy crypto, buying crypto, token, polygon, matic, blockchain" />
         <meta name="author" content="Sarif-Design" />
@@ -106,6 +106,34 @@ export default function Home() {
               </Marquee>
             </div>
 
+            <div className="w-full flex flex-col md:flex-row p-2 mb-4">
+
+              <div className="w-full md:w-1/3 p-4 rounded-lg bg-white border-4 border-customLightBlue drop-shadow-xl">
+                <h4 className="text-2xl font-[Starduster] text-center">ZulCoin Address</h4>
+                <h4 className="text-2xl font-[Starduster] text-center mb-2 font-bold">ズルコインアドレス</h4>
+                <div className="w-full text-center overflow-hidden">
+                  <a href="" className="transition duration-300 hover:text-customRed">30827985625637653925392783596573625</a>
+                </div>
+              </div>
+
+              <div className="w-full md:w-1/3 p-4 rounded-lg bg-white border-4 border-customLightBlue drop-shadow-xl">
+                <h4 className="text-2xl font-[Starduster] text-center">Your TrAnsActions</h4>
+                <h4 className="text-2xl font-[Starduster] text-center mb-2 font-bold">あなたの取引</h4>
+                <div className="w-full text-center overflow-hidden">
+                  <h5 className="text-xl font-bold">2</h5>
+                </div>
+              </div>
+
+              <div className="w-full md:w-1/3 p-4 rounded-lg bg-white border-4 border-customLightBlue drop-shadow-xl">
+                <h4 className="text-2xl font-[Starduster] text-center">Your ZulCoin</h4>
+                <h4 className="text-2xl font-[Starduster] text-center mb-2 font-bold">あなたのズルコイン</h4>
+                <div className="w-full text-center overflow-hidden">
+                  <h5 className="text-xl font-bold">4 ZUL</h5>
+                </div>
+              </div>
+
+            </div>
+
             <div className="flex flex-col md:flex-row items-end">
               <div className="flex w-full md:w-2/3 flex-col h-full p-2">
                 <p>今すぐ通貨を購入する</p>
@@ -124,10 +152,32 @@ export default function Home() {
                   { instructionsLang == 1 &&
                     <div className="w-full flex flex-col md:flex-row">
                       <div className="w-full md:w-1/2">
-                        <h4 className="text-xl text-customDark font-[Starduster]">Instructions</h4>
+                        <div className="p-2">
+                          <h4 className="text-xl text-customDark font-[Starduster]">Instructions</h4>
+                          <p>
+                            Click the "Connect Wallet" button on the top right corner to connect to your MetaMask wallet.
+                          </p>
+                          <p>
+                            The price of the 1 ZUL is fixed. The value of 1 ZUL is shown in USD, payable in Ether.
+                          </p>
+                          <p>
+                            Choose how many ZUL you are willing to buy.
+                          </p>
+                        </div>
                       </div>
                       <div className="w-full md:w-1/2">
-                        <h4 className="text-xl text-customDark font-[Starduster] font-bold">使用説明書</h4>
+                        <div className="p-2">
+                          <h4 className="text-xl text-customDark font-[Starduster] font-bold">使用説明書</h4>
+                          <p>
+                            右上隅にある[ウォレットの接続]ボタンをクリックして、MetaMaskウォレットに接続します。
+                          </p>
+                          <p>
+                            1ZULの価格は固定されています。 1 ZULの値は米ドルで表示され、Etherで支払う必要があります。
+                          </p>
+                          <p>
+                            購入するZULの数を選択してください。
+                          </p>
+                        </div>
                       </div>
                     </div>
                   }
@@ -135,10 +185,32 @@ export default function Home() {
                   { instructionsLang == 2 &&
                     <div className="w-full flex flex-col md:flex-row">
                       <div className="w-full md:w-1/2">
-                        <h4 className="text-xl text-customDark font-[Starduster] font-bold">사용 지침</h4>
+                        <div className="p-2">
+                          <h4 className="text-xl text-customDark font-[Starduster] font-bold">사용 지침</h4>
+                          <p>
+                            오른쪽 상단의 "지갑 연결" 버튼을 클릭하여 MetaMask 지갑에 연결합니다.
+                          </p>
+                          <p>
+                            1 ZUL의 가격은 고정되어 있습니다. 1 ZUL의 가치는 USD로 표시되며 Ether로 지불 가능합니다.
+                          </p>
+                          <p>
+                            구매할 의향이 있는 ZUL 수를 선택하십시오.
+                          </p>
+                        </div>
                       </div>
                       <div className="w-full md:w-1/2">
-                        <h4 className="text-xl text-customDark font-[Starduster]">hAsznAlati útmutAtó</h4>
+                        <div className="p-2">
+                          <h4 className="text-xl text-customDark font-[Starduster]">hAsznAlAti útmutAtó</h4>
+                          <p>
+                            Kattintson a jobb felső sarokban található "Connect Wallet" gombra a MetaMask pénztárcához való csatlakozáshoz.
+                          </p>
+                          <p>
+                            Az 1 ZUL ára fix. 1 ZUL értéke USD-ben van feltüntetve, éterben fizetendő.
+                          </p>
+                          <p>
+                            Válassza ki, hány ZUL-t hajlandó vásárolni.
+                          </p>
+                        </div>
                       </div>
                     </div>
                   }
@@ -146,10 +218,32 @@ export default function Home() {
                   { instructionsLang == 3 &&
                     <div className="w-full flex flex-col md:flex-row">
                       <div className="w-full md:w-1/2">
-                        <h4 className="text-xl text-customDark font-[Starduster] font-bold">उपयोग के लिए निर्देश</h4>
+                        <div className="p-2">
+                          <h4 className="text-xl text-customDark font-[Starduster] font-bold">उपयोग के लिए निर्देश</h4>
+                          <p>
+                            अपने मेटामास्क वॉलेट से कनेक्ट करने के लिए ऊपरी दाएं कोने पर "कनेक्ट वॉलेट" बटन पर क्लिक करें।
+                          </p>
+                          <p>
+                            1 ZUL की कीमत तय है। 1 ZUL का मान USD में दिखाया गया है, जो ईथर में देय है।
+                          </p>
+                          <p>
+                            चुनें कि आप कितने ZUL खरीदना चाहते हैं।
+                          </p>
+                        </div>
                       </div>
                       <div className="w-full md:w-1/2">
-                        <h4 className="text-xl text-customDark font-[Starduster]">upute</h4>
+                        <div className="p-2">
+                          <h4 className="text-xl text-customDark font-[Starduster]">upute</h4>
+                          <p>
+                            Pritisnite tipku "Connect Wallet" na gornjem desnom uglu ekrana radi spajanja sa Vašim MetaMask novčanikom.
+                          </p>
+                          <p>
+                            Cijena 1 ZUL je fiksna. Vrijednost 1 ZUL je prikazana u USD, plativa u Etheru.
+                          </p>
+                          <p>
+                            Odaberite koliko ZUL-a želite kupiti.
+                          </p>
+                        </div>
                       </div>
                     </div>
                   }
@@ -157,10 +251,32 @@ export default function Home() {
                   { instructionsLang == 4 &&
                     <div className="w-full flex flex-col md:flex-row">
                       <div className="w-full md:w-1/2">
-                        <h4 className="text-xl text-customDark font-[Starduster]">kullAnim için tAlimAtlAr</h4>
+                        <div className="p-2">
+                          <h4 className="text-xl text-customDark font-[Starduster]">kullAnim için tAlimAtlAr</h4>
+                          <p>
+                            MetaMask cüzdanınıza bağlanmak için sağ üst köşedeki "Cüzdanı Bağla" düğmesini tıklayın.
+                          </p>
+                          <p>
+                            1 ZUL fiyatı sabittir. 1 ZUL'un değeri USD cinsinden gösterilir ve Ether ile ödenir.
+                          </p>
+                          <p>
+                            Ne kadar ZUL satın almak istediğinizi seçin.
+                          </p>
+                        </div>
                       </div>
                       <div className="w-full md:w-1/2">
-                        <h4 className="text-xl text-customDark font-Roboto font-bold">Инструкции по применению</h4>
+                        <div className="p-2">
+                          <h4 className="text-xl text-customDark font-Roboto font-bold">Инструкции по применению</h4>
+                          <p>
+                            Нажмите кнопку «Подключить кошелек» в правом верхнем углу, чтобы подключиться к вашему кошельку MetaMask.
+                          </p>
+                          <p>
+                            Цена 1 ZUL фиксированная. Стоимость 1 ZUL указана в долларах США, оплата производится в эфире.
+                          </p>
+                          <p>
+                            Выберите, сколько ZUL вы готовы купить.
+                          </p>
+                        </div>
                       </div>
                     </div>
                   }
@@ -170,8 +286,19 @@ export default function Home() {
                 <div className="w-full p-4 rounded-lg bg-white border-4 border-customLightBlue drop-shadow-xl">
                   <h4 className="text-2xl font-[Starduster] text-center">TrAnsActions</h4>
                   <h4 className="text-2xl font-[Starduster] text-center mb-2 font-bold">会報</h4>
-                  <div className="w-full text-center overflow-hidden">
-                    <a href="" className="transition duration-300 hover:text-customRed">30827985625637653925392783596573625</a>
+                  <div className="w-full flex">
+                    <div className="w-2/3 p-2">
+                      <h4 className="font-bold text-lg">Address</h4>
+                      <h4 className="font-bold text-lg mb-2">住所</h4>
+                      <div className="w-full text-center overflow-hidden">
+                        <a href="" className="transition duration-300 hover:text-customRed">30827985625637653925392783596573625</a>
+                      </div>
+                    </div>
+                    <div className="w-1/3 p-2">
+                      <h4 className="font-bold text-lg">Amount</h4>
+                      <h4 className="font-bold text-lg mb-2">量</h4>
+                      <p>3</p>
+                    </div>
                   </div>
                 </div>
                 <div className="w-full p-4 rounded-lg bg-white border-4 border-customLightBlue drop-shadow-xl">
